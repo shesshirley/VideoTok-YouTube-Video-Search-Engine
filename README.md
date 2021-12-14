@@ -1,5 +1,5 @@
 # YouTube-Video-Search-Engine
-(flask.png)
+![ScreenShot](flask.png)
 ## Introduction
 With the increasing demand for electronic devices, it is hard for people to choose the best products from multiple brands. In this case, the unboxing video will be useful letting people get an overview of the product. We would like to build a basic search engine for video on Youtube based on the speech content transcript to try to improve the searching result. The goal of the project is to find the most relevant video according to the content for the web search engine.
 
