@@ -17,7 +17,6 @@ def get_top_10_related(query):
     rm_r("pd_index")
     pd_indexer = pt.DFIndexer("./pd_index")
     df = pd.read_csv("index_file.csv",index_col=0)
-    df = pd.read_csv("index_file.csv",index_col=0)
     df["docno"] = df["docno"].astype("str")
     df["comment"] = df["comment"].astype("str")
     df["dislike"] = df["dislike"].astype("str")
