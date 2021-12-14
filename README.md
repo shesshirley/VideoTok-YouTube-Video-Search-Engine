@@ -41,4 +41,4 @@ Feature Works
 In our project, the datasets are constrained to certain fields of datas and this may influence the performance of models. We may want to explore our datasets by containing different fields to build a more general search engine. Also, even though we build some of the features, most of them are rarely important in our model. In later work, we may want to get more familiar with our data and to extract more features.
 
 ## Deliverable
-The final deliverable is a Flask App, the user could enter the query related to the electronic devices, for example “new iphone 13”, “DJI drone”, the system would use our best model to retrieve the results and show the top10 most relevant Youtube Video title and URL, and then user could click URL to watch the video.
+The final deliverable we used is Streamlit App, the user could enter the query related to the electronic devices, for example “new iphone 13”, “DJI drone”, the system would use our best model to retrieve the results and show the top10 most relevant Youtube Video title and URL, and then user could click URL to watch the video.
