@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 from model import *
 
-st.title('Hello!')
-st.markdown("<h1 style='text-align: center;'>Search the Most Matched Video<br>for You</h1>", unsafe_allow_html=True)
+st.title('VideoTok')
+st.markdown("<h1 style='text-align: center;'>Search Video from YouTube</h1>", unsafe_allow_html=True)
 
 query = st.text_input('')
 # documents = get_documents_dict()
