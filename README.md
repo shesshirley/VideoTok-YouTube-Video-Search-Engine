@@ -32,6 +32,7 @@ To successfully figure out the correlation between each feature to the final lab
 
 ### Simple Ranking Function
 We also build a simple ranking function model to improve the performance of the ranking result. The idea is to give different weights to different features. We also included the hyper-parameter to help to tune the model. After doing the feature importance analysis, we build the model r below where r1 represents the score return by the baseline model BM25 and r2 return by another baseline model TF-IDF.
+𝑟 = 𝑙𝑜𝑔((𝑟1_𝑏𝑚25 + 1) + 𝑘) + 𝑙𝑜𝑔(𝑟2_𝑡𝑓𝑖𝑑𝑓) + 𝑡𝑎𝑔𝑠_𝑡𝑓𝑖𝑑𝑓 + 𝑣𝑖𝑒𝑤25% + 𝑙𝑖𝑘𝑒/𝑑𝑖𝑠𝑙𝑖𝑘𝑒 + 𝑠𝑒𝑛𝑡𝑖𝑚𝑒𝑛𝑡 𝑠𝑐𝑜𝑟𝑒
 
 Ranking function.
 The results show us an improvement on our models but since we are training on a small dataset, the increase of NDCG score does not mean the model is good enough to rank.
